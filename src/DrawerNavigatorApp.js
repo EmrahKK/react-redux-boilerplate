@@ -6,6 +6,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import { DrawerNavigator } from "react-navigation";
 // import screens
 import { homeScreen, detailsScreen, peopleScreen } from "./view/screens";
+
 // import ionic icons
 import Icon from 'react-native-vector-icons/Ionicons';
 

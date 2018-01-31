@@ -49,6 +49,8 @@ export function fetchPeopleFromAPI() {
             .catch(err => dispatch(getPeopleFailure(err)))
     }
 }
+
+(dispatch) => { }
 export function getPeople() {
     return {
         type: FETCHING_PEOPLE

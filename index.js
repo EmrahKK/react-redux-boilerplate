@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 
 import configureStore from './src/store'
 
-import DrawerNavigatorApp from './src/DrawerNavigatorApp';
+import NavigationDeepLinkingApp from './src/NavigationDeepLinkingApp';
 
 // create/configure store object
 const store = configureStore()
@@ -13,7 +13,7 @@ const store = configureStore()
 // wrap store over App component
 const ReduxApp = () => (
     <Provider store={store}>
-        <DrawerNavigatorApp />
+        <NavigationDeepLinkingApp />
     </Provider>
 )
 
