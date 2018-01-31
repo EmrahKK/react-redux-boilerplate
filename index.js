@@ -4,7 +4,8 @@ import { AppRegistry } from 'react-native';
 import { Provider } from 'react-redux'
 
 import configureStore from './src/store'
-import App from './src/App';
+
+import DrawerNavigatorApp from './src/DrawerNavigatorApp';
 
 // create/configure store object
 const store = configureStore()
@@ -12,7 +13,7 @@ const store = configureStore()
 // wrap store over App component
 const ReduxApp = () => (
     <Provider store={store}>
-        <App />
+        <DrawerNavigatorApp />
     </Provider>
 )
 
